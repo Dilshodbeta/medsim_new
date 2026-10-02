@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "postgresql+asyncpg://medsim:medsim123@localhost:5432/medsim_db"
 
     # DeepSeek AI API kaliti
-    OPENAI_API_KEY: str = "sk-42874f7bcf1f44adb2988b9ae0bc39cc"
+    OPENAI_API_KEY: str = ""  # .env yoki muhit o'zgaruvchisidan olinadi
     
     # DeepSeek Server manzili
     OPENAI_BASE_URL: str = "https://api.deepseek.com"
